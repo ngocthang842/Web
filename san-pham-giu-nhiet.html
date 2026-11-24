@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm giữ nhiệt - Elmich</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ===== HEADER ===== -->
+    <header>
+        <div class="header-tren">
+            <a class="logo" href="#">
+                <img src="assets/logo-elmich.png" alt="Elmich">
+            </a>
+            <div class="header-phai">
+                <a class="lien-ket-header" href="#">Tìm kiếm</a>
+                <a class="lien-ket-header" href="#">Tài khoản</a>
+                <a class="lien-ket-header" href="#">Giỏ hàng (0)</a>
+            </div>
+        </div>
+
+        <!-- Thanh menu -->
+        <nav class="menu">
+            <ul class="danh-sach-muc">
+                <li class="muc"><a class="lien-ket-muc" href="#">Trang chủ</a></li>
+                <li class="muc dang-chon"><a class="lien-ket-muc" href="#">Sản phẩm</a></li>
+                <li class="muc"><a class="lien-ket-muc" href="#">Giới thiệu</a></li>
+                <li class="muc"><a class="lien-ket-muc" href="#">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ===== ĐƯỜNG DẪN ===== -->
+    <div class="duong-dan">
+        <a href="#">Trang chủ</a> /
+        <a href="#">Sản phẩm</a> /
+        <b>Sản phẩm giữ nhiệt</b>
+    </div>
+
+    <!-- ===== TIÊU ĐỀ + DANH MỤC CON ===== -->
+    <div class="tieu-de-trang">
+        <h1>SẢN PHẨM GIỮ NHIỆT</h1>
+
+        <div class="danh-muc-con">
+            <a class="o-danh-muc" href="#">
+                <img src="assets/binh-2.png" alt="Bình giữ nhiệt">
+                <span>Bình giữ nhiệt</span>
+            </a>
+            <a class="o-danh-muc" href="#">
+                <img src="assets/coc.png" alt="Cốc giữ nhiệt">
+                <span>Cốc giữ nhiệt</span>
+            </a>
+            <a class="o-danh-muc" href="#">
+                <img src="assets/binh-5.png" alt="Bình giữ nhiệt cho bé">
+                <span>Bình giữ nhiệt cho bé</span>
+            </a>
+            <a class="o-danh-muc" href="#">
+                <img src="assets/hop-com.png" alt="Hộp cơm giữ nhiệt">
+                <span>Hộp cơm giữ nhiệt</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- ===== NỘI DUNG CHÍNH ===== -->
+    <main>
+        <div class="noi-dung">
+
+            <!-- Khối trái: bộ lọc -->
+            <div class="khoi-trai" id="khoi-trai">
+
+                <div class="bo-loc">
+                    <h3 class="tieu-de-loc">Màu sắc <span>(Thuộc tính)</span></h3>
+                    <ul class="danh-sach-loc">
+                        <li>
+                            <div class="nhan-loc">
+                                <input type="checkbox">
+                                <span class="mau-sac mau-xanh-dam"></span>
+                                Xanh Đậm
+                            </div>
+                        </li>
+                        <li>
+                            <div class="nhan-loc">
+                                <input type="checkbox">
+                                <span class="mau-sac mau-xanh-ngoc"></span>
+                                Xanh Ngọc
+                            </div>
+                        </li>
+                        <li>
+                            <div class="nhan-loc">
+                                <input type="checkbox">
+                                <span class="mau-sac mau-hong"></span>
+                                Hồng
+                            </div>
+                        </li>
+                        <li>
+                            <div class="nhan-loc">
+                                <input type="checkbox">
+                                <span class="mau-sac mau-den"></span>
+                                Đen
+                            </div>
+                        </li>
+                        <li>
+                            <div class="nhan-loc">
+                                <input type="checkbox">
+                                <span class="mau-sac mau-do"></span>
+                                Đỏ
+                            </div>
+                        </li>
+                        <li>
+                            <div class="nhan-loc">
+                                <input type="checkbox">
+                                <span class="mau-sac mau-vang"></span>
+                                Vàng
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bo-loc">
+                    <h3 class="tieu-de-loc">Dung tích <span>(Thuộc tính)</span></h3>
+                    <ul class="danh-sach-loc">
+                        <li><div class="nhan-loc"><input type="checkbox"> Dưới 500ml</div></li>
+                        <li><div class="nhan-loc"><input type="checkbox"> 500ml - 800ml</div></li>
+                        <li><div class="nhan-loc"><input type="checkbox"> 800ml - 1 lít</div></li>
+                        <li><div class="nhan-loc"><input type="checkbox"> Trên 1 lít</div></li>
+                    </ul>
+                </div>
+
+                <div class="bo-loc">
+                    <h3 class="tieu-de-loc">Danh mục</h3>
+                    <ul class="danh-sach-loc">
+                        <li><div class="nhan-loc"><input type="checkbox" checked> Bình giữ nhiệt</div></li>
+                        <li><div class="nhan-loc"><input type="checkbox"> Cốc giữ nhiệt</div></li>
+                        <li><div class="nhan-loc"><input type="checkbox"> Hộp cơm giữ nhiệt</div></li>
+                        <li><div class="nhan-loc"><input type="checkbox"> Phích nước</div></li>
+                    </ul>
+                </div>
+
+                <div class="bo-loc">
+                    <h3 class="tieu-de-loc">Giá</h3>
+                    <ul class="danh-sach-loc">
+                        <li><div class="nhan-loc"><input type="checkbox"> Dưới 500.000đ</div></li>
+                        <li><div class="nhan-loc"><input type="checkbox"> 500.000đ - 1.000.000đ</div></li>
+                        <li><div class="nhan-loc"><input type="checkbox"> Trên 1.000.000đ</div></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Khối phải: danh sách sản phẩm -->
+            <div class="khoi-phai">
+
+                <div class="thanh-cong-cu">
+                    <div class="so-luong"><b>116</b> sản phẩm</div>
+
+                    <div class="cong-cu-phai">
+                        <button class="nut-an-loc" id="nut-an-loc" onclick="anBoLoc()">Ẩn bộ lọc</button>
+                        <span class="chu-thich">Sắp xếp:</span>
+                        <button class="nut-sap-xep" onclick="sapXep(0)">Mới nhất</button>
+                        <button class="nut-sap-xep" onclick="sapXep(1)">Giá tăng</button>
+                        <button class="nut-sap-xep" onclick="sapXep(2)">Giá giảm</button>
+                        <button class="nut-sap-xep" onclick="sapXep(3)">Tên A-Z</button>
+                    </div>
+                </div>
+
+                <!-- Danh sách 12 sản phẩm -->
+                <div class="danh-sach-san-pham" id="danh-sach-san-pham">
+
+                    <div class="san-pham">
+                        <div class="hang-nhan"><span class="nhan-giam">-65%</span></div>
+                        <a class="anh-san-pham" href="#">
+                            <img src="assets/binh-1.png" alt="Bình giữ nhiệt Elmich 500ml inox 304 nắp bấm">
+                        </a>
+                        <div class="thong-tin">
+                            <h3 class="ten-san-pham">Bình giữ nhiệt Elmich 500ml inox 304 nắp bấm</h3>
+                            <div class="gia">
+                                <b class="gia-moi">450.000đ</b>
+                                <i class="gia-cu">1.290.000đ</i>
+                            </div>
+                            <div class="uudai">
+                                <div class="uudai-o"><span class="nho">Giảm thêm</span><span class="lon">10%</span></div>
+                                <div class="uudai-o"><span class="nho">Ưu đãi</span><span class="lon">50%+</span></div>
+                                <div class="uudai-o"><span class="nho">Freeship</span><span class="lon">500K</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="san-pham">
+                        <div class="hang-nhan"><span class="nhan-giam">-80%</span></div>
+                        <a class="anh-san-pham" href="#">
+                            <img src="assets/binh-2.png" alt="Bình giữ nhiệt Elmich 800ml thể thao nắp khóa">
+                        </a>
+                        <div class="thong-tin">
+                            <h3 class="ten-san-pham">Bình giữ nhiệt Elmich 800ml thể thao nắp khóa</h3>
+                            <div class="gia">
+                                <b class="gia-moi">320.000đ</b>
+                                <i class="gia-cu">1.600.000đ</i>
+                            </div>
+                            <div class="uudai">
+                                <div class="uudai-o"><span class="nho">Giảm thêm</span><span class="lon">10%</span></div>
+                                <div class="uudai-o"><span class="nho">Ưu đãi</span><span class="lon">50%+</span></div>
+                                <div class="uudai-o"><span class="nho">Freeship</span><span class="lon">500K</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="san-pham">
+                        <div class="hang-nhan"><span class="nhan-giam">-68%</span></div>
+                        <a class="anh-san-pham" href="#">
+                            <img src="assets/binh-3.png" alt="Bình giữ nhiệt Elmich 1 lít nắp quai xách">
+                        </a>
+                        <div class="thong-tin">
+                            <h3 class="ten-san-pham">Bình giữ nhiệt Elmich 1 lít nắp quai xách</h3>
+                            <div class="gia">
+                                <b class="gia-moi">380.000đ</b>
+                                <i class="gia-cu">1.190.000đ</i>
+                            </div>
+                            <div class="uudai">
+                                <div class="uudai-o"><span class="nho">Giảm thêm</span><span class="lon">10%</span></div>
+                                <div class="uudai-o"><span class="nho">Ưu đãi</span><span class="lon">50%+</span></div>
+                                <div class="uudai-o"><span class="nho">Freeship</span><span class="lon">500K</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="san-pham">
+                        <div class="hang-nhan"><span class="nhan-giam">-15%</span></div>
+                        <a class="anh-san-pham" href="#">
+                            <img src="assets/binh-4.png" alt="Bình giữ nhiệt Elmich 600ml inox 316 màu đen">
+                        </a>
+                        <div class="thong-tin">
+                            <h3 class="ten-san-pham">Bình giữ nhiệt Elmich 600ml inox 316 màu đen</h3>
+                            <div class="gia">
+                                <b class="gia-moi">620.000đ</b>
+                                <i class="gia-cu">730.000đ</i>
+                            </div>
+                            <div class="uudai">
+                                <div class="uudai-o"><span class="nho">Giảm thêm</span><span class="lon">10%</span></div>
+                                <div class="uudai-o"><span class="nho">Ưu đãi</span><span class="lon">50%+</span></div>
+                                <div class="uudai-o"><span class="nho">Freeship</span><span class="lon">500K</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="san-pham">
+                        <div class="hang-nhan"><span class="nhan-giam">-50%</span></div>
+                        <a class="anh-san-pham" href="#">
+                            <img src="assets/binh-5.png" alt="Bình giữ nhiệt cho bé Elmich 400ml có ống hút">
+                        </a>
+                        <div class="thong-tin">
+                            <h3 class="ten-san-pham">Bình giữ nhiệt cho bé Elmich 400ml có ống hút</h3>
+                            <div class="gia">
+                                <b class="gia-moi">290.000đ</b>
+                                <i class="gia-cu">580.000đ</i>
+                            </div>
+                            <div class="uudai">
+                                <div class="uudai-o"><span class="nho">Giảm thêm</span><span class="lon">10%</span></div>
+                                <div class="uudai-o"><span class="nho">Ưu đãi</span><span class="lon">50%+</span></div>
+                                <div class="uudai-o"><span class="nho">Freeship</span><span class="lon">500K</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="san-pham">
+                        <div class="hang-nhan"><span class="nhan-giam">-50%</span></div>
+                        <a class="anh-san-pham" href="#">
+                            <img src="assets/binh-6.png" alt="Bình nước thể thao Elmich 750ml nắp vặn chống rò">
+                        </a>
+                        <div class="thong-tin">
+                            <h3 class="ten-san-pham">Bình nước thể thao Elmich 750ml nắp vặn chống rò</h3>
+                            <div class="gia">
+                                <b class="gia-moi">350.000đ</b>
+                                <i class="gia-cu">700.000đ</i>
+                            </div>
+                            <div class="uudai">
+                                <div class="uudai-o"><span class="nho">Giảm thêm</span><span class="lon">10%</span></div>
+                                <div class="uudai-o"><span class="nho">Ưu đãi</span><span class="lon">50%+</span></div>
+                                <div class="uudai-o"><span class="nho">Freeship</span><span class="lon">500K</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="san-pham">
+                        <div class="hang-nhan"><span class="nhan-giam">-50%</span></div>
+                        <a class="anh-san-pham" href="#">
+                            <img src="assets/coc.png" alt="Cốc giữ nhiệt Elmich 380ml nắp trượt chống tràn">
+                        </a>
+                        <div class="thong-tin">
+                            <h3 class="ten-san-pham">Cốc giữ nhiệt Elmich 380ml nắp trượt chống tràn</h3>
+                            <div class="gia">
+                                <b class="gia-moi">210.000đ</b>
+                                <i class="gia-cu">420.000đ</i>
+                            </div>
+                            <div class="uudai">
+                                <div class="uudai-o"><span class="nho">Giảm thêm</span><span class="lon">10%</span></div>
+                                <div class="uudai-o"><span class="nho">Ưu đãi</span><span class="lon">50%+</span></div>
+                                <div class="uudai-o"><span class="nho">Freeship</span><span class="lon">500K</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="san-pham">
+                        <div class="hang-nhan"><span class="nhan-giam">-40%</span></div>
+                        <a class="anh-san-pham" href="#">
+                            <img src="assets/hop-com.png" alt="Hộp cơm giữ nhiệt Elmich 1.2 lít 3 tầng inox">
+                        </a>
+                        <div class="thong-tin">
+                            <h3 class="ten-san-pham">Hộp cơm giữ nhiệt Elmich 1.2 lít 3 tầng inox</h3>
+                            <div class="gia">
+                                <b class="gia-moi">540.000đ</b>
+                                <i class="gia-cu">900.000đ</i>
+                            </div>
+                            <div class="uudai">
+                                <div class="uudai-o"><span class="nho">Giảm thêm</span><span class="lon">10%</span></div>
+                                <div class="uudai-o"><span class="nho">Ưu đãi</span><span class="lon">50%+</span></div>
+                                <div class="uudai-o"><span class="nho">Freeship</span><span class="lon">500K</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="san-pham">
+                        <div class="hang-nhan"><span class="nhan-giam">-50%</span></div>
+                        <a class="anh-san-pham" href="#">
+                            <img src="assets/binh-1.png" alt="Bình giữ nhiệt Elmich 350ml mini để bàn">
+                        </a>
+                        <div class="thong-tin">
+                            <h3 class="ten-san-pham">Bình giữ nhiệt Elmich 350ml mini để bàn</h3>
+                            <div class="gia">
+                                <b class="gia-moi">260.000đ</b>
+                                <i class="gia-cu">520.000đ</i>
+                            </div>
+                            <div class="uudai">
+                                <div class="uudai-o"><span class="nho">Giảm thêm</span><span class="lon">10%</span></div>
+                                <div class="uudai-o"><span class="nho">Ưu đãi</span><span class="lon">50%+</span></div>
+                                <div class="uudai-o"><span class="nho">Freeship</span><span class="lon">500K</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="san-pham">
+                        <div class="hang-nhan"><span class="nhan-giam">-50%</span></div>
+                        <a class="anh-san-pham" href="#">
+                            <img src="assets/binh-2.png" alt="Bình giữ nhiệt Elmich 1.5 lít gia đình văn phòng">
+                        </a>
+                        <div class="thong-tin">
+                            <h3 class="ten-san-pham">Bình giữ nhiệt Elmich 1.5 lít gia đình văn phòng</h3>
+                            <div class="gia">
+                                <b class="gia-moi">690.000đ</b>
+                                <i class="gia-cu">1.380.000đ</i>
+                            </div>
+                            <div class="uudai">
+                                <div class="uudai-o"><span class="nho">Giảm thêm</span><span class="lon">10%</span></div>
+                                <div class="uudai-o"><span class="nho">Ưu đãi</span><span class="lon">50%+</span></div>
+                                <div class="uudai-o"><span class="nho">Freeship</span><span class="lon">500K</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="san-pham">
+                        <div class="hang-nhan"><span class="nhan-giam">-50%</span></div>
+                        <a class="anh-san-pham" href="#">
+                            <img src="assets/coc.png" alt="Cốc giữ nhiệt Elmich 500ml kèm ống hút inox">
+                        </a>
+                        <div class="thong-tin">
+                            <h3 class="ten-san-pham">Cốc giữ nhiệt Elmich 500ml kèm ống hút inox</h3>
+                            <div class="gia">
+                                <b class="gia-moi">240.000đ</b>
+                                <i class="gia-cu">480.000đ</i>
+                            </div>
+                            <div class="uudai">
+                                <div class="uudai-o"><span class="nho">Giảm thêm</span><span class="lon">10%</span></div>
+                                <div class="uudai-o"><span class="nho">Ưu đãi</span><span class="lon">50%+</span></div>
+                                <div class="uudai-o"><span class="nho">Freeship</span><span class="lon">500K</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="san-pham">
+                        <div class="hang-nhan"><span class="nhan-giam">-50%</span></div>
+                        <a class="anh-san-pham" href="#">
+                            <img src="assets/hop-com.png" alt="Hộp cơm giữ nhiệt Elmich 800ml 2 tầng">
+                        </a>
+                        <div class="thong-tin">
+                            <h3 class="ten-san-pham">Hộp cơm giữ nhiệt Elmich 800ml 2 tầng</h3>
+                            <div class="gia">
+                                <b class="gia-moi">420.000đ</b>
+                                <i class="gia-cu">840.000đ</i>
+                            </div>
+                            <div class="uudai">
+                                <div class="uudai-o"><span class="nho">Giảm thêm</span><span class="lon">10%</span></div>
+                                <div class="uudai-o"><span class="nho">Ưu đãi</span><span class="lon">50%+</span></div>
+                                <div class="uudai-o"><span class="nho">Freeship</span><span class="lon">500K</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Phân trang -->
+                <div class="phan-trang">
+                    <a class="trang trang-dang-chon" href="#">1</a>
+                    <a class="trang" href="#">2</a>
+                    <a class="trang" href="#">3</a>
+                    <span class="cham">...</span>
+                    <a class="trang" href="#">10</a>
+                    <a class="trang" href="#">&gt;</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ===== MÔ TẢ CUỐI TRANG ===== -->
+        <div class="mo-ta-danh-muc">
+            <h2>Về sản phẩm giữ nhiệt Elmich</h2>
+            <p>
+                Elmich cung cấp bình giữ nhiệt, cốc giữ nhiệt và hộp cơm giữ nhiệt chính hãng với chất liệu
+                inox 304 và inox 316 an toàn cho sức khỏe. Sản phẩm giữ nóng - lạnh từ 12 đến 24 giờ, phù hợp
+                cho dân văn phòng, học sinh, sinh viên và người đi du lịch.
+            </p>
+            <p>
+                Thiết kế nắp khóa chống rò rỉ, quai xách tiện lợi, dung tích từ 350ml đến 1.5 lít giúp bạn
+                dễ dàng chọn được sản phẩm phù hợp với nhu cầu sử dụng hằng ngày.
+            </p>
+        </div>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer-noi-dung">
+            <div class="footer-cot">
+                <div class="footer-logo"><b>elmich</b></div>
+                <p>Thương hiệu gia dụng hàng đầu Việt Nam với hơn 30 năm đồng hành cùng mọi gia đình.</p>
+            </div>
+
+            <div class="footer-cot">
+                <h3>Sản phẩm</h3>
+                <ul class="footer-menu">
+                    <li><a href="#">Bình giữ nhiệt</a></li>
+                    <li><a href="#">Cốc giữ nhiệt</a></li>
+                    <li><a href="#">Hộp cơm giữ nhiệt</a></li>
+                    <li><a href="#">Phích nước</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-cot">
+                <h3>Hỗ trợ</h3>
+                <ul class="footer-menu">
+                    <li><a href="#">Chính sách đổi trả</a></li>
+                    <li><a href="#">Chính sách bảo hành</a></li>
+                    <li><a href="#">Phương thức thanh toán</a></li>
+                    <li><a href="#">Câu hỏi thường gặp</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-cot">
+                <h3>Liên hệ</h3>
+                <p>Email: info@elmich.vn</p>
+                <p>Hotline: 1900 6422</p>
+                <p>Địa chỉ: Tòa nhà Elmich, Hà Nội</p>
+            </div>
+        </div>
+
+        <div class="footer-cuoi">© 2026 BTL Nhóm 5 - Lớp DCCTCT69_09</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

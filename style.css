@@ -1,0 +1,541 @@
+/* === CƠ BẢN === */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #232323;
+    background-color: #ffffff;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* === HEADER === */
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.header-tren {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: block;
+    width: 120px;
+}
+
+.logo img {
+    width: 120px;
+    height: 32px;
+}
+
+.header-phai {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.lien-ket-header {
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 13px;
+    color: #333333;
+}
+
+.lien-ket-header:hover {
+    background-color: #f5f5f3;
+    color: #e2231a;
+}
+
+/* === THANH MENU === */
+.menu {
+    background-color: #e2231a;
+}
+
+.danh-sach-muc {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.muc {
+    padding: 14px 18px;
+}
+
+.lien-ket-muc {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.muc:hover {
+    background-color: #bf1a12;
+}
+
+.dang-chon {
+    background-color: #bf1a12;
+}
+
+/* === ĐƯỜNG DẪN === */
+.duong-dan {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 14px 20px 0 20px;
+    font-size: 13px;
+    color: #8a8a8a;
+}
+
+.duong-dan a:hover {
+    color: #e2231a;
+}
+
+.duong-dan b {
+    color: #333333;
+}
+
+/* === TIÊU ĐỀ TRANG === */
+.tieu-de-trang {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.tieu-de-trang h1 {
+    margin: 16px 0 8px 0;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+/* === DANH MỤC CON === */
+.danh-muc-con {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 14px;
+    padding: 8px 0 22px 0;
+}
+
+.o-danh-muc {
+    display: block;
+    width: 150px;
+    padding: 10px 10px 12px 10px;
+    background-color: #f7f7f5;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.o-danh-muc:hover {
+    background-color: #eeeeea;
+}
+
+.o-danh-muc img {
+    width: 118px;
+    height: 118px;
+    margin: 0 auto 6px auto;
+}
+
+.o-danh-muc span {
+    display: block;
+    font-size: 13px;
+    color: #333333;
+}
+
+/* === KHUNG NỘI DUNG === */
+.noi-dung {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.khoi-trai {
+    width: 23%;
+}
+
+.khoi-phai {
+    width: 74%;
+    margin-left: 3%;
+}
+
+/* === SIDEBAR: BỘ LỌC === */
+.bo-loc {
+    border-bottom: 1px solid #e8e8e8;
+    padding: 12px 0 14px 0;
+}
+
+.tieu-de-loc {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.tieu-de-loc span {
+    font-weight: 400;
+    font-size: 12px;
+    color: #9a9a9a;
+}
+
+.danh-sach-loc li {
+    margin-bottom: 2px;
+}
+
+.nhan-loc {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 3px 0;
+    font-size: 13px;
+    color: #3a3a3a;
+}
+
+.nhan-loc input {
+    margin: 0;
+}
+
+.mau-sac {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1px solid #d5d5d5;
+}
+
+.mau-xanh-dam {
+    background-color: #1f3b2c;
+}
+
+.mau-xanh-ngoc {
+    background-color: #9fc6b4;
+}
+
+.mau-hong {
+    background-color: #f0b7c2;
+}
+
+.mau-den {
+    background-color: #2b2b2b;
+}
+
+.mau-do {
+    background-color: #e2231a;
+}
+
+.mau-vang {
+    background-color: #f0b429;
+}
+
+/* === THANH CÔNG CỤ === */
+.thanh-cong-cu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 10px;
+    margin-bottom: 16px;
+}
+
+.so-luong {
+    color: #4a4a4a;
+}
+
+.so-luong b {
+    color: #1f1f1f;
+}
+
+.cong-cu-phai {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.chu-thich {
+    font-size: 13px;
+    color: #777777;
+}
+
+.nut-an-loc {
+    border: 0;
+    background-color: #ffffff;
+    color: #555555;
+    padding: 6px 8px;
+    border-radius: 6px;
+}
+
+.nut-an-loc:hover {
+    color: #e2231a;
+}
+
+.nut-sap-xep {
+    border: 1px solid #e8e8e8;
+    background-color: #ffffff;
+    color: #444444;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 13px;
+}
+
+.nut-sap-xep:hover {
+    border: 1px solid #e2231a;
+    color: #e2231a;
+}
+
+/* === DANH SÁCH SẢN PHẨM === */
+.danh-sach-san-pham {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.san-pham {
+    width: 23%;
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.hang-nhan {
+    text-align: right;
+    padding: 8px 8px 0 8px;
+}
+
+.nhan-giam {
+    display: inline-block;
+    background-color: #e2231a;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 3px;
+}
+
+.anh-san-pham {
+    display: block;
+    padding: 6px 10px;
+}
+
+.anh-san-pham img {
+    height: 175px;
+    border-radius: 8px;
+}
+
+.thong-tin {
+    padding: 6px 12px 12px 12px;
+}
+
+.ten-san-pham {
+    height: 38px;
+    overflow: hidden;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.45;
+    margin-bottom: 6px;
+    color: #2b2b2b;
+}
+
+.gia {
+    margin-bottom: 8px;
+}
+
+.gia-moi {
+    font-size: 16px;
+    color: #e2231a;
+}
+
+.gia-cu {
+    font-size: 12px;
+    color: #a2a2a2;
+    text-decoration: line-through;
+    margin-left: 6px;
+}
+
+.uudai {
+    display: flex;
+    border-top: 1px dashed #ececec;
+    padding-top: 8px;
+}
+
+.uudai-o {
+    width: 33%;
+    text-align: center;
+    border-right: 1px solid #ececec;
+}
+
+.uudai-o:last-child {
+    border-right: 0;
+}
+
+.uudai-o span {
+    display: block;
+}
+
+.uudai-o .nho {
+    font-size: 9px;
+    color: #7c7c7c;
+}
+
+.uudai-o .lon {
+    font-size: 12px;
+    font-weight: 700;
+    color: #e2231a;
+}
+
+/* === PHÂN TRANG === */
+.phan-trang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin: 26px 0 8px 0;
+}
+
+.trang {
+    display: block;
+    width: 36px;
+    height: 36px;
+    line-height: 34px;
+    text-align: center;
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    font-size: 13px;
+    color: #444444;
+    background-color: #ffffff;
+}
+
+.trang:hover {
+    border: 1px solid #e2231a;
+    color: #e2231a;
+}
+
+.trang-dang-chon {
+    background-color: #e2231a;
+    border: 1px solid #e2231a;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.trang-dang-chon:hover {
+    color: #ffffff;
+}
+
+.cham {
+    color: #999999;
+    font-size: 13px;
+}
+
+/* === MÔ TẢ CUỐI TRANG === */
+.mo-ta-danh-muc {
+    max-width: 1200px;
+    margin: 30px auto 0 auto;
+    padding: 0 20px;
+}
+
+.mo-ta-danh-muc h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.mo-ta-danh-muc p {
+    margin: 0 0 10px 0;
+    color: #5d5d5d;
+}
+
+/* === CHÂN TRANG === */
+.footer {
+    background-color: #1b1b1b;
+    color: #cfcfcf;
+    margin-top: 40px;
+}
+
+.footer-noi-dung {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px 24px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px;
+}
+
+.footer-cot {
+    width: 22%;
+}
+
+.footer-logo {
+    margin-bottom: 10px;
+}
+
+.footer-logo b {
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.footer-cot h3 {
+    font-size: 13px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.footer-cot p {
+    margin: 5px 0;
+    font-size: 13px;
+    color: #a9a9a9;
+}
+
+.footer-menu li {
+    margin-bottom: 6px;
+}
+
+.footer-menu a {
+    font-size: 13px;
+    color: #a9a9a9;
+}
+
+.footer-menu a:hover {
+    color: #ffffff;
+}
+
+.footer-cuoi {
+    border-top: 1px solid #2e2e2e;
+    text-align: center;
+    padding: 14px 20px;
+    font-size: 12px;
+    color: #8a8a8a;
+}
